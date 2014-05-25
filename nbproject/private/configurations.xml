@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "..\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_45\bin\java" -Dcn.sandbox.security.SandboxClassLoader.workdir=C:\JudgeRunner\1000 "-Djava.class.path=D:\Program Files\zhanhb\lib\log4j-1.2.17.jar;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\classes;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\test\classes" -Djava.system.class.loader=cn.sandbox.security.SandboxClassLoader -Djava.security.policy=file:/C:/Users/Administrator/Documents/NetBeansProjects/JavaRunner/build/classes/cn/sandbox/security/java.policy Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_45\bin\java" -Dcn.sandbox.security.SandboxClassLoader.workdir=C:\JudgeRunner\1000 "-Djava.class.path=D:\Program Files\zhanhb\lib\log4j-1.2.17.jar;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\classes;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\test\classes" -Djava.system.class.loader=cn.sandbox.security.SandboxClassLoader -Djava.security.policy=file:/C:/Users/Administrator/Documents/NetBeansProjects/JavaRunner/build/classes/cn/sandbox/security/java.policy Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_51\bin\java.exe" -Dcn.sandbox.security.SandboxClassLoader.workdir=C:\JudgeRunner\1000 "-Djava.class.path=D:\Program Files\zhanhb\lib\log4j-1.2.17.jar;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\classes;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\test\classes" -Djava.system.class.loader=cn.sandbox.security.SandboxClassLoader -Djava.security.policy=file:/C:/Users/Administrator/Documents/NetBeansProjects/JavaRunner/build/classes/cn/sandbox/security/java.policy Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_51\bin\java.exe" -Dcn.sandbox.security.SandboxClassLoader.workdir=C:\JudgeRunner\1000 "-Djava.class.path=D:\Program Files\zhanhb\lib\log4j-1.2.17.jar;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\classes;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\test\classes" Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_51\bin\java.exe" -Dcn.sandbox.security.SandboxClassLoader.workdir=C:\JudgeRunner\1000 "-Djava.class.path=.;D:\Program Files\zhanhb\lib\log4j-1.2.17.jar;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\classes;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\test\classes" Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_51\bin\java.exe" Main</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_51\bin\java.exe" Main</runcommand>
+        <rundir>C:\JudgeRunner\1000</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err a3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_51\bin\java.exe" Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_51\bin\java.exe" Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.8.0\bin\java.exe" Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "C:\JudgeRunner\1001\main.exe"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" 1.out 1.err 3000 67108864 4194304  "D:\Program Files\Java\jdk1.7.0_45\bin\java" -Dcn.sandbox.security.SandboxClassLoader.workdir=C:\JudgeRunner\1000 "-Djava.class.path=D:\Program Files\zhanhb\lib\log4j-1.2.17.jar;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\classes;C:\Users\Administrator\Documents\NetBeansProjects\JavaRunner\build\test\classes" -Djava.system.class.loader=cn.sandbox.security.SandboxClassLoader -Djava.security.policy=file:/C:/Users/Administrator/Documents/NetBeansProjects/JavaRunner/build/classes/cn/sandbox/security/java.policy Main</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -input "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" -output 1.out -error 1.err -time 3000 -memory 67108864 -output 4194304 "C:\JudgeRunner\1001\main.exe"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -input "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" -output 1.out -error 1.err -time 3000 -memory 67108864 -ol 4194304 -redirectErrorStreamTag "C:\JudgeRunner\1001\main.exe"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -input "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" -output 1.out -error 1.err -time 3000 -memory 67108864 -ol 4194304 -redirectErrorStream "C:\JudgeRunner\1001\main.exe"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -input "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" -output 1.out -error 1.err -time 3000 -memory 67108864 -ol 4194304 "C:\JudgeRunner\1001\main.exe"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -input "C:\Users\Administrator\Documents\NetBeansProjects\JudgeClient\work\data\1.in" -output 1.out -error 1.err -time 3000 -memory 67108864 -ol 4194304 "C:\JudgeRunner\1001\main.exe"</runcommand>
+        <rundir>C:\JudgeRunner\1001</rundir>
+        <buildfirst>true</buildfirst>
+        <console-type>1</console-type>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
