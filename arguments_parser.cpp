@@ -39,7 +39,7 @@ static void _usage(LPCTSTR sProg, int exitValue, LPCTSTR prompt) {
 
 static void _parseLong(const LPCTSTR * argv, LPTSTR s, LL & x) {
     size_t len = _tcslen(s), n;
-    if (1 != _stscanf(s, __TEXT("" LLS "%n"), &x, &n) || n > 18 || n != len) {
+    if (len > 18 || 1 != _stscanf(s, __TEXT("" LLS "%n"), &x, &n) || n != len) {
         _ftprintf(stderr, __TEXT("Number format exception for input string: '%s'.\n"), s);
         usage();
     }

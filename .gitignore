@@ -213,3 +213,21 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+
+#############
+## NetBeans
+#############
+
+nbproject/
+build/
+dist/
+
+
+#############
+## git files
+#############
+.git*
+.svn/
+
+/nbproject/
